@@ -1,0 +1,72 @@
+.listContainer{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    
+
+}
+.listContainerText{
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+   
+}
+
+.listItem{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+}
+
+.topListItem{
+    margin-top: 10px;
+    font-size: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.listItems{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.films{
+   cursor: pointer;
+}
+
+.infoText{
+    font-size: 25px;
+}

@@ -1,0 +1,3 @@
+MOST of this stuff is a literal copy and paste from this open source software flinndocs.web.app that I have authored and led a team to begin building.
+So it may have a couple of extra functions that solve different problems that arn't required on this challenge
+ALSO I can't not code using this infustructure anymore. It makes things really quick and easy and bug free so I spend less time debugging.

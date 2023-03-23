@@ -1,0 +1,23 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "A little exercise using a Star Wars API [https://swapi.dev/](https://swapi.dev/), [express.js](https://expressjs.com/) and [React](https://reactjs.org/)",
+  "main": "index.js",
+  "scripts": {
+    "server:dev": "npm run dev --prefix server",
+    "client:dev": "npm run dev --prefix client",
+    "docker:build": "docker-compose build",
+    "internal": "npm run docker:build && docker-compose up & npm run client:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gosolo/challenges/node-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gosolo/challenges/node-exercise/issues"
+  },
+  "homepage": "https://gitlab.com/gosolo/challenges/node-exercise#readme"
+}

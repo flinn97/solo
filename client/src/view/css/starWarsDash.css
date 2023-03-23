@@ -1,0 +1,32 @@
+.container{
+    width: 85%;
+    height: 70%;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    padding:30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+
+}
+.text{
+    font-size: 30px;
+    color:#2055A3;
+}
+
+.selectList{
+    margin-top: 50px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+
+.selectListItem{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 25px;
+}
