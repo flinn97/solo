@@ -32,10 +32,10 @@ export default class ShowInfo extends React.Component<IProps, IState> {
     return (
       <div className="info scroller" style={{height:'500x', paddingTop:"5px", }}>
         <div  className=" scroller">
-        <div className="infoText" style={{width:"100%", }}>Info:</div>
+        <div className="infoText" style={{width:"100%", color:"black"}}>Info:</div>
         
         {Object.keys(currentItem.getJson()).filter((key:string)=>{return (!doNotDisplay.includes(key))}).map((key:any, index:number)=>
-        <div className="listItem" style={{borderBottom:"none", cursor:"auto"}} key={index}>
+        <div className="listItem" style={{borderBottom:"none", cursor:"auto",color:"black"}} key={index} >
           {key}: {currentItem.getJson()[key]}
         </div>
         )}

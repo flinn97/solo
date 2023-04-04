@@ -36,10 +36,10 @@ export default class MapList extends React.Component<IProps, IState> {
         
        {mapList.map((listItem:BaseClass, index:number)=>
        <div className="listItem" key={index}>
-            <div className="films" onClick={()=>{app.dispatch({showItem:listItem})}}>
+            <div className="films" style={{color:"black"}} onClick={()=>{app.dispatch({showItem:listItem})}}>
                 {listItem.getJson().name}
             </div>
-            <div style={{marginRight:"40px"}}>
+            <div style={{marginRight:"40px", color:"black"}}>
             {listItem.getJson().films?.length}
             </div>
        </div>

@@ -30,8 +30,8 @@ export default class ShowList extends React.Component<IProps, IState> {
     return (
       <div className="listContainer">
         <div className="listItems">
-       <div className="listContainerText">List / <p className="text" style={{fontSize:"22px", margin:"0px", marginLeft:"5px"}}>{props.app.state.switchCase}</p></div>
-       <div  className="topListItem"><div className="listContainerText">Name</div> <div className="listContainerText">#  of Films</div></div>
+       <div className="listContainerText" style={{color:"black"}}>List / <p className="text" style={{fontSize:"22px", margin:"0px", marginLeft:"5px", color:"black"}}>{props.app.state.switchCase}</p></div>
+       <div  className="topListItem"><div className="listContainerText" style={{color:"black"}}>Name</div> <div className="listContainerText" style={{color:"black"}}>#  of Films</div></div>
        <MapList {...props} />
        </div>
        {this.props.app.state.showItem&&(<ShowInfo {...props}/>)}

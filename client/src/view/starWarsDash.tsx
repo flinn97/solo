@@ -28,10 +28,10 @@ export default class StarWarsDash extends React.Component<IProps, IState> {
     const props = {app: {...this.props.app, state:{...this.props.app.state, switchCase:this.state.switchCase}}};
     return (
       <div className="container">
-       <div className="text">Star Wars API</div>
+       <div className="text" style={{color:"black"}}>Star Wars API</div>
        <div className="selectList">
-       <div className="selectListItem" onClick={()=>{this.setState({switchCase:"people"})}}>People</div>
-       <div className="selectListItem" onClick={()=>{this.setState({switchCase:"planets"})}}>Planets</div>
+       <div className="selectListItem" style={{color:"black"}} onClick={()=>{this.setState({switchCase:"people"})}}>People</div>
+       <div className="selectListItem" style={{color:"black"}} onClick={()=>{this.setState({switchCase:"planets"})}}>Planets</div>
        </div>
        {this.state.switchCase && (<ShowList {...props} />)}
       </div>
